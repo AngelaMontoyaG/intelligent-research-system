@@ -3,12 +3,12 @@ from app.search import search_similar_chunks
 
 def main():
     # define the question
-    question = "¿Cuánto tiempo dura la garantía?"
+    question = "¿En qué horario puedo llamar a Nova Hardware?"
 
     # execute the search
     results = search_similar_chunks(
         question,
-        number_of_results=3,
+        number_of_results=6,
     )
 
     print("Pregunta:", question)
