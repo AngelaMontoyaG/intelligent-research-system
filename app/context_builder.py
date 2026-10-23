@@ -10,7 +10,6 @@ def build_context(documents) -> str:
             f"[Fragmento {index}]\n{document.page_content}"
         )
 
-    #join de fragments
     #join() joins all elements of the list using that separator
     context = "\n\n---\n\n".join(context_parts)
 

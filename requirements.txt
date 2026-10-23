@@ -13,6 +13,7 @@ cffi==2.1.1
 charset-normalizer==3.5.1
 click==8.5.0
 cloudpickle==3.1.2
+cohere==7.3.0
 colorama==0.4.6
 colorlog==6.12.0
 cryptography==50.0.1
@@ -28,6 +29,7 @@ docling-slim==2.127.0
 et_xmlfile==2.0.0
 faiss-cpu==1.15.0
 Faker==40.39.0
+fastavro==1.13.1
 filelock==3.32.6
 filetype==1.2.0
 flatbuffers==25.12.19
@@ -148,6 +150,7 @@ tree-sitter-python==0.25.0
 tree-sitter-typescript==0.23.2
 truststore==0.10.4
 typer==0.26.8
+types-requests==2.33.0.20261006
 typing-inspection==0.4.4
 typing_extensions==4.16.0
 tzdata==2026.4

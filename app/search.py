@@ -26,8 +26,8 @@ def search_similar_chunks(
     # The function is called and the result is the FAISS index ready to perform searches.
     vector_store = load_vector_store()
 
-    # Search for the chunks most similar to the query
-    results = vector_store.similarity_search(
+    # Retrieve similar chunks with their respective scores
+    results = vector_store.similarity_search_with_score(
         question, #The text input to search for
         k=number_of_results, #k indicates the number of results to be returned.
     )
